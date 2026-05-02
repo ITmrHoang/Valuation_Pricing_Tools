@@ -1,5 +1,9 @@
 # Requirements - AI Config Pricing Engine
 
+| `mod.rs` | Core types: AssetType, TrendDirection, Recommendation, ValuationResult, PricingEngine trait |
+| `nft_valuator.rs` | Định giá NFT: rarity score, floor price analysis, volume-weighted pricing |
+| `stock_valuator.rs` | Technical analysis: SMA, EMA, RSI, Bollinger Bands, Volatility |
+| `fundamental_analysis.rs` | **[NEW]** Fundamental analysis: P/E, P/B, EPS growth, DCF, khuyến nghị mua/bán |
 ## v0.1.0 (2026-04-10) — Core Foundation
 
 ### R-001: NFT Valuation Engine
